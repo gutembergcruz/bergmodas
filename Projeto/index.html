@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Berg Modas</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container">
+    <section id="bar-sup">
+      <p>Olá Visitante! Bem Vindo a loja.</p>
+      <p> <a href="">Entre</a> ou <a href="">Cadastre-se</a> </p>
+    </section>
+    <header id="cab">
+      <input type="checkbox" id="abrirmenu1">
+      <input type="checkbox" id="abrirmenu2">
+      <input type="checkbox" id="abrirmenu3">
+      <div>
+        <a href="" title="BergModas">
+          <img src="slices/logo.png" title="BergModas" alt="Logo BergModas">
+        </a>
+      </div>
+      <form>
+        <input type="text" placeholder="Camisa infantil">
+        <button type="submit"> <img src="slices/busca.png" title="Buscar" alt="Lupa"> </button>
+      </form>
+      <div>
+        <a href="" title="Ver carrinho"> <img src="slices/cart.png" title="Ver carrinho" alt="Carrinho"> <span>3</span>
+        </a>
+        <a href="" title="Ver favoritos"> <img src="slices/favoritos.png" title="Ver Favoritos" alt="Coração">
+          <span>3</span> </a>
+      </div>
+      <div id="resp-h">
+        <label for="abrirmenu1"> <img src="slices/busca.png" title="Ver carrinho" alt="Carrinho"> </label>
+        <label for="abrirmenu2"> <img src="slices/user.png" title="Ver carrinho" alt="Carrinho"> </label>
+        <label for="abrirmenu3"> <img src="slices/open-menu.png" title="Ver carrinho" alt="Carrinho"> </label>
+      </div>
+      <nav class="primeiromenu">
+        <label for="abrirmenu1">Voltar</label>
+        <input type="text" placeholder="Digite sua busca">
+        <button type="submit">Buscar</button>
+      </nav>
+
+      <nav class="segundomenu">
+        <label for="abrirmenu2">Voltar</label>
+        <a href="" title="Login">Login</a>
+        <a href="" title="Cadastre-se">Cadastre-se</a>
+        <a href="" title="Meu carrinho">Meu carrinho</a>
+        <a href="" title="Meus Favoritos">Meus Favoritos</a>
+      </nav>
+
+      <nav class="terceiromenu">
+        <label for="abrirmenu3">Voltar</label>
+        <a href="" title="Moda feminina">Moda feminina</a>
+        <a href="" title="Moda masculina">Moda masculina</a>
+        <a href="" title="Moda infantil">Moda infantil</a>
+        <a href="" title="Casacos">Casacos</a>
+        <a href="" title="Sapatos">Sapatos</a>
+        <a href="" title="Acessórios">Acessórios</a>
+        <a href="" title="Moda feminina">Moda feminina</a>
+        <a href="" title="Moda masculina">Moda masculina</a>
+        <a href="" title="Moda infantil">Moda infantil</a>
+        <a href="" title="Casacos">Casacos</a>
+        <a href="" title="Sapatos">Sapatos</a>
+        <a href="" title="Acessórios">Acessórios</a>
+        <a href="" title="Moda feminina">Moda feminina</a>
+        <a href="" title="Moda masculina">Moda masculina</a>
+        <a href="" title="Moda infantil">Moda infantil</a>
+        <a href="" title="Casacos">Casacos</a>
+        <a href="" title="Sapatos">Sapatos</a>
+        <a href="" title="Acessórios">Acessórios</a>
+      </nav>
+    </header>
+    <nav id="menu">
+
+      <div class="dropdown">
+        <span>
+          <img src="slices/open-menu.png" alt="">
+          Categorias
+        </span>
+        <div class="dropdown-content">
+          <p> <a href="" title="">Vestidos</a> </p>
+          <p> <a href="" title="">Botas</a> </p>
+          <p> <a href="" title="">Sapatilhas</a> </p>
+          <p> <a href="" title="">Tenis</a> </p>
+          <p> <a href="" title="">Lingeries</a> </p>
+          <p> <a href="" title="">Acessórios</a> </p>
+          <p> <a href="" title="">Camisas</a> </p>
+          <p> <a href="" title="">Calças</a> </p>
+        </div>
+      </div>
+      <a href="" title="">Feminino</a>
+      <a href="" title="">Calçados</a>
+      <a href="" title="">Plus Size</a>
+      <a href="" title="">Infantil</a>
+      <a href="" title="">Masculino</a>
+    </nav>
+    <section id="carroussel">
+      <div class="carroussel-container">
+        <div class="mySlides">
+          <img src="slices/banner01.jpg" style="width: 100%;">
+          <div class="text">
+            <h1>Mussum Ipsum
+              cacilds vidis</h1>
+            <span></span>
+            <h2>Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss.</h2>
+            <h3>R$ 75,90</h3>
+            <p>Em até 5x <br> nos cartões.</p>
+            <a href="">Ver produto</a>
+          </div>
+        </div>
+
+        <div class="mySlides">
+          <img src="slices/banner02.jpg" style="width: 100%;">
+          <div class="text">
+            <h1>Mussum Ipsum
+              cacilds vidis</h1>
+            <span></span>
+            <h2>Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss.</h2>
+            <h3>R$ 75,90</h3>
+            <p>Em até 5x <br> nos cartões.</p>
+            <a href="">Ver produto</a>
+          </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+    </section>
+    <main id="produtos">
+      <article>
+        <a title="Adicionar aos Favoritos" href="" class="hover-icon-push"> <img src="slices/favoritar.png"
+            class="hover-icon" title="Adicionar aos favoritos" alt=""> </a>
+        <a href="" title="Produto">
+          <img src="slices/model01.jpg" alt="">
+        </a>
+        <div>
+          <p>Moda Masculina</p>
+          <h1>Mussum ipsum, cacilds vidis litro abertis.</h1>
+          <h2>R$149,99</h2>
+          <h3>R$ 179,99</h3>
+        </div>
+        <a href="">Adicionar ao carrinho <img src="slices/add-cart.png" title="Adicionar ao Carrinho" alt="Cart"> </a>
+      </article>
+      <article>
+        <a title="Adicionar aos Favoritos" href="" class="hover-icon-push"> <img src="slices/favoritar.png"
+            class="hover-icon" title="Adicionar aos favoritos" alt=""> </a>
+        <a href="" title="Produto">
+          <img src="slices/model02.jpg" alt="">
+        </a>
+        <div>
+          <p>Moda Masculina</p>
+          <h1>Mussum ipsum, cacilds vidis litro abertis.</h1>
+          <h2>R$149,99</h2>
+          <h3>R$ 179,99</h3>
+        </div>
+        <a href="">Adicionar ao carrinho <img src="slices/add-cart.png" title="Adicionar ao Carrinho" alt="Cart"> </a>
+      </article>
+      <article>
+        <a title="Adicionar aos Favoritos" href="" class="hover-icon-push"> <img src="slices/favoritar.png"
+            class="hover-icon" title="Adicionar aos favoritos" alt=""> </a>
+        <a href="" title="Produto">
+          <img src="slices/model03.jpg" alt="">
+        </a>
+        <div>
+          <p>Moda Masculina</p>
+          <h1>Mussum ipsum, cacilds vidis litro abertis.</h1>
+          <h2>R$149,99</h2>
+          <h3>R$ 179,99</h3>
+        </div>
+        <a href="">Adicionar ao carrinho <img src="slices/add-cart.png" title="Adicionar ao Carrinho" alt="Cart"> </a>
+      </article>
+    </main>
+    <a href="" id="vertodos">Ver todos</a>
+    <footer id="rodape">
+      <article>
+        <h1>Fale conosco</h1>
+        <span>Endereço:</span>
+        <p>Rua guamaré, 30 - Cidade nova Manaus/AM</p>
+        <span>Telefone:</span>
+        <p>+55 092 99327-3244</p>
+        <span>E-mail:</span>
+        <p>exemplo@exemplo.com</p>
+      </article>
+      <article>
+        <h1>Minha conta</h1>
+        <a href="" title="Ajuda">Ajuda</a> <br>
+        <a href="" title="Trocar senha">Trocar senha</a> <br>
+        <a href="" title="Meus pedidos">Meus pedidos</a> <br>
+        <a href="" title="Termos de uso">Termos de uso</a> <br>
+        <a href="" title="Políticas de privacidade">Políticas de privacidade</a> <br>
+        <a href="" title="Políticas de troca">Políticas de troca</a> <br>
+        <a href="" title="Alterar dados">Alterar dados</a>
+      </article>
+      <article>
+        <h1>Tags de produtos</h1>
+        <a href="" title="Masculino">Masculino</a>
+        <a href="" title="Feminino">Feminino</a> <br>
+        <a href="" title="Intantil">Intantil</a>
+        <a href="" title="Moda Baby">Moda Baby</a> <br>
+        <a href="" title="Plus Size">Plus Size</a>
+        <a href="" title="Verão">Verão</a>
+      </article>
+    </footer>
+    <section id="copy">
+      <p>Copyright BergModas. Todos os direitos reservados.</p>
+      <div> <img src="slices/cartoes.png" title="Aceitamos cartões" alt="Bandeiras de cartões"> </div>
+    </section>
+  </div>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
